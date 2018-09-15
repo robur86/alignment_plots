@@ -1,14 +1,12 @@
 ## This script is for testing inserui and removeui 
 
-## Test data
-
 library(shiny)
 library(shinydashboard)
 library(ggplot2)
 
-########################################################################################
-######                          USER INTERFACE                                    ######
-########################################################################################
+
+###### USER INTERFACE
+
 
 ui <- dashboardPage(
   dashboardHeader(),
@@ -29,9 +27,7 @@ ui <- dashboardPage(
 )
 
 
-########################################################################################
-######                          SERVER FUNCTIONS                                  ######
-########################################################################################
+######  SERVER FUNCTIONS
 
 
 server <- function(input, output, session) {
